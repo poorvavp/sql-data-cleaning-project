@@ -56,31 +56,31 @@ WHERE Item = 'Cake' AND per_unit_price IS NULL;
 -WHERE Item = 'Coffee' AND per_unit_price IS NULL;
 
 -- filling the null values in perunitprice column - cookie
--UPDATE DirtyData
--SET per_unit_price = 1
--WHERE Item = 'Cookie' AND per_unit_price IS NULL;
+UPDATE DirtyData
+SET per_unit_price = 1
+WHERE Item = 'Cookie' AND per_unit_price IS NULL;
 
--- filling the null values in perunitprice column - salad
+- filling the null values in perunitprice column - salad
 UPDATE DirtyData
 SET per_unit_price = 5
 WHERE Item = 'Salad' AND per_unit_price IS NULL;
 
--- filling the null values in perunitprice column - sandwich
+- filling the null values in perunitprice column - sandwich
 UPDATE DirtyData
 SET per_unit_price = 4
 WHERE Item = 'Sandwich' AND per_unit_price IS NULL;
 
--- filling the null values in perunitprice column - smoothie
+-filling the null values in perunitprice column - smoothie
 UPDATE DirtyData
 SET per_unit_price =4
 WHERE Item = 'Smoothie' AND per_unit_price IS NULL;
 
--- filling the null values in perunitprice column - juice
+- filling the null values in perunitprice column - juice
 UPDATE DirtyData
 SET per_unit_price = 3
 WHERE Item = 'Juice' AND per_unit_price IS NULL;
 
--- filling the null values in perunitprice column - tea
+- filling the null values in perunitprice column - tea
 UPDATE DirtyData
 SET per_unit_price = 1.5
 WHERE Item = 'Tea' AND per_unit_price IS NULL;
