@@ -7,8 +7,8 @@ TOOLS USED : MS SQL SERVER
 DATASET : CAFE SALES DATASET
 
 Cleaning Tasks Performed:
-- Replaced NULLs using ISNULL or COALESCE
-- Removed duplicate rows using ROW_NUMBER() or DISTINCT
+- Replaced NULLs using ISNULL
+- Removed duplicate rows 
 - Standardized date formats
 - Trimmed whitespace using LTRIM, RTRIM
 
