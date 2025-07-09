@@ -19,10 +19,15 @@ select * from DirtyData
 SELECT COUNT(*) FROM DirtyData
 
 -- RENAMING COLUMN NAMES
+
 EXEC sp_rename 'DirtyData.Price Per Unit', 'per_unit_price', 'COLUMN';
+
 EXEC sp_rename 'DirtyData.Total Spent', 'TotalAmt', 'COLUMN';
+
 EXEC sp_rename 'DirtyData.Transaction ID', 'TransactionID', 'COLUMN';
+
 EXEC sp_rename 'DirtyData.Payment Method', 'PaymentMethod', 'COLUMN';
+
 EXEC sp_rename 'DirtyData.Transaction Date', 'TransactionDate', 'COLUMN';
 
 
